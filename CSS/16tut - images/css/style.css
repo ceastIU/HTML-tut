@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+/* Begin reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+
+/* End reset */
+
+/*  Utility Classes */
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+/* End Utlity Classes  */
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: aliceblue;
+  /* background-image: url('../img/bubbles.png'), 
+                    linear-gradient(to left,steelblue,white);
+  background-repeat: repeat-y, no-repeat;
+  background-position: right, center; */
+  background-size: 20%, auto;
+  background: repeat-y right center url('../img/bubbles.png'), no-repeat linear-gradient(to left, steelblue,white);
+}
+
+.container {
+  background-color: rgb(251,210,156);
+  background-image: url('../img/map-2176x1451.png');
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+
+.hero {
+  border-bottom: 2px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  background-color: hsla(0, 0%, 0%, 0.335);
+
+}
+
+h1 {
+  font-size: 400%;
+  color:whitesmoke;
+  text-shadow: 2px 2px 5px black;
+}
+
+.profile-pic-figure {
+  width: 35%;
+}
+
+.profile-pic-figure img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double rgb(58, 124, 247);
+  border-radius: 50%;
+}
+
+
+/* section {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px red solid;
+} */
+
+.example img {
+  width: 25%;
+  height: auto;
+}
+
+.clip {
+  font-weight: 800;
+  font-size: 18rem;
+  text-align: center;
+  background-image: url('../img/scenic-2200x1331.png');
+  background-size: 100%;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  color: hsla(0, 0%, 0%, 0.186);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
